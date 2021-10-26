@@ -30,3 +30,4 @@ void addItem( struct memsys *memsys, struct Tree *tree, int (*compar)(const void
 
 //the last 20%
 int searchItem( struct memsys *memsys, struct Tree *tree, int (*compar)(const void *, const void *),void *target );
+// helper funciton
