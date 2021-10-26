@@ -118,7 +118,7 @@ void addItem( struct memsys *memsys, struct Tree *tree, int (*compar)(const void
 	}
 	else{
 		curr = tree->root;
-		getval(memsys, &currNode, sizeof(struct Node), tree->root);
+		//getval(memsys, &currNode, sizeof(struct Node), tree->root);
 		while(curr!=MEMNULL){
 			getval(memsys, &currNode, sizeof(struct Node), curr);
 			direction = comparNode(memsys,&curr,compar,src, tree->width);
@@ -132,29 +132,26 @@ void addItem( struct memsys *memsys, struct Tree *tree, int (*compar)(const void
 
 int searchItem( struct memsys *memsys, struct Tree *tree, int (*compar)(const void *, const void *),void *target ){
 
-	struct Node currNode;
+	//struct Node currNode;
 	int curr; 
-	int direction, data;
+	int direction;
 	if(tree->root==MEMNULL){
 		fprintf(stderr, "The tree pointer points to nothing, there is no tree\n");
 		exit(0);
 	}
 	curr = tree->root;
 	while(curr!=MEMNULL){
-		getval(memsys, &currNode, sizeof(struct Node), curr);
-		data = currNode.data;
-		if(compar(target, &(data))==0){
-			readNode(memsys, &(data), target, tree->width);
+		//getval(memsys, &currNode, sizeof(struct Node), curr);
+		//data = currNode.data;
+		direction = comparNode(memsys,&curr,compar,target, tree->width);
+
+		if(direction==0){
+			readNode(memsys, &curr, target, tree->width);
 			return 1;
 		}
-		direction = comparNode(memsys,&curr,compar,target, tree->width);
 		curr = next(memsys, &curr, direction);
 	}
 	return 0;
 }
-
-
-
-
 
 
