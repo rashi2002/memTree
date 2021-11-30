@@ -1,0 +1,106 @@
+Found tree.c
+Compiling
+Found tree.o
+Compilation succeeded
+################################################################################
+Compiling and linking gradeA4_attachNode
+Issuing comple command "clang -std=c99 -Wall -pedantic -I ~/Grading/Graders -I . ~/Grading/Graders/gradeA4_attachNode.c ~/Grading/Graders/memsys.c tree.o -o gradeA4_attachNode 1> compile.out 2> compile.err":
+Found gradeA4_attachNode
+Compilation succeeded
+================================================================================
+attachNode passed
+################################################################################
+Compiling and linking gradeA4_attachChild
+Issuing comple command "clang -std=c99 -Wall -pedantic -I ~/Grading/Graders -I . ~/Grading/Graders/gradeA4_attachChild.c ~/Grading/Graders/memsys.c tree.o -o gradeA4_attachChild 1> compile.out 2> compile.err":
+Found gradeA4_attachChild
+Compilation succeeded
+================================================================================
+attachChild passed
+================================================================================
+attachChild passed
+################################################################################
+Compiling and linking gradeA4_comparNode
+Issuing comple command "clang -std=c99 -Wall -pedantic -I ~/Grading/Graders -I . ~/Grading/Graders/gradeA4_comparNode.c ~/Grading/Graders/memsys.c tree.o -o gradeA4_comparNode 1> compile.out 2> compile.err":
+Found gradeA4_comparNode
+Compilation succeeded
+================================================================================
+comparNode passed
+================================================================================
+comparNode passed
+################################################################################
+Compiling and linking gradeA4_next
+Issuing comple command "clang -std=c99 -Wall -pedantic -I ~/Grading/Graders -I . ~/Grading/Graders/gradeA4_next.c ~/Grading/Graders/memsys.c tree.o -o gradeA4_next 1> compile.out 2> compile.err":
+Found gradeA4_next
+Compilation succeeded
+================================================================================
+next passed
+################################################################################
+Compiling and linking gradeA4_readNode
+Issuing comple command "clang -std=c99 -Wall -pedantic -I ~/Grading/Graders -I . ~/Grading/Graders/gradeA4_readNode.c ~/Grading/Graders/memsys.c tree.o -o gradeA4_readNode 1> compile.out 2> compile.err":
+Found gradeA4_readNode
+Compilation succeeded
+================================================================================
+readNode passed
+================================================================================
+readNode passed
+################################################################################
+Compiling and linking gradeA4_detachNode
+Issuing comple command "clang -std=c99 -Wall -pedantic -I ~/Grading/Graders -I . ~/Grading/Graders/gradeA4_detachNode.c ~/Grading/Graders/memsys.c tree.o -o gradeA4_detachNode 1> compile.out 2> compile.err":
+Found gradeA4_detachNode
+Compilation succeeded
+================================================================================
+detachNode passed
+================================================================================
+detachNode passed
+################################################################################
+Compiling and linking gradeA4_freeNodes
+Issuing comple command "clang -std=c99 -Wall -pedantic -I ~/Grading/Graders -I . ~/Grading/Graders/gradeA4_freeNodes.c ~/Grading/Graders/memsys.c tree.o -o gradeA4_freeNodes 1> compile.out 2> compile.err":
+Found gradeA4_freeNodes
+Compilation succeeded
+================================================================================
+freeNodes passed
+================================================================================
+freeNodes passed
+################################################################################
+Compiling and linking gradeA4_newTree
+Issuing comple command "clang -std=c99 -Wall -pedantic -I ~/Grading/Graders -I . ~/Grading/Graders/gradeA4_newTree.c ~/Grading/Graders/memsys.c tree.o -o gradeA4_newTree 1> compile.out 2> compile.err":
+Found gradeA4_newTree
+Compilation succeeded
+================================================================================
+newTree passed
+################################################################################
+Compiling and linking gradeA4_freeTree
+Issuing comple command "clang -std=c99 -Wall -pedantic -I ~/Grading/Graders -I . ~/Grading/Graders/gradeA4_freeTree.c ~/Grading/Graders/memsys.c tree.o -o gradeA4_freeTree 1> compile.out 2> compile.err":
+Found gradeA4_freeTree
+Compilation succeeded
+================================================================================
+freeTree passed
+################################################################################
+Compiling and linking gradeA4_addItem
+Issuing comple command "clang -std=c99 -Wall -pedantic -I ~/Grading/Graders -I . ~/Grading/Graders/gradeA4_addItem.c ~/Grading/Graders/memsys.c tree.o -o gradeA4_addItem 1> compile.out 2> compile.err":
+Found gradeA4_addItem
+Compilation succeeded
+================================================================================
+addItem passed
+================================================================================
+addItem passed
+################################################################################
+Compiling and linking gradeA4_searchItem
+Issuing comple command "clang -std=c99 -Wall -pedantic -I ~/Grading/Graders -I . ~/Grading/Graders/gradeA4_searchItem.c ~/Grading/Graders/memsys.c tree.o -o gradeA4_searchItem 1> compile.out 2> compile.err":
+Found gradeA4_searchItem
+Compilation succeeded
+================================================================================
+searchItem 1 Keiron passed
+================================================================================
+searchItem 2 Pollard passed
+================================================================================
+searchItem 1 Raheel passed
+================================================================================
+searchItem 2 Marshal passed
+================================================================================
+searchItem 1 Stefan passed
+Found makefile
+Correct options
+Comments
+Indentation levels are: ['', '\t', '\t\t', '\t\t\t']
+Assignment submitted by Rashi Mathur <rashi@uoguelph.ca> at: Tue Oct 26 16:40:48 2021
